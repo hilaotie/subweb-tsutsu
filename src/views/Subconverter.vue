@@ -254,10 +254,10 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
-          "つつの专属后端 (六核负载均衡-支持IPv4/IPv6)": "https://api.tsutsu.one/sub?",
+          "老铁专属 (不会看后端)": "https://probable-keriann-hilaotiec79vkxxkss.koyeb.app/sub?",
         },
         backendOptions: [
-          { value: "https://api.tsutsu.one/sub?" },
+          { value: "https://probable-keriann-hilaotiec79vkxxkss.koyeb.app/sub?" },
         ],
         remoteConfig: [
           {
@@ -303,6 +303,11 @@ export default {
           {
             label: "用户投稿,投稿请tg找 @Ox208",
             options: [
+	      {
+                label: "DNS防泄漏",
+                value:
+                  "https://cf.buliang0.cf/clash-rules/nodnsleak.ini"
+              },
               {
                 label: "hope140自用配置 (与Github同步)",
                 value:
